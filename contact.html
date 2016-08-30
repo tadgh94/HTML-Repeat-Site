@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PizzaRush.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.jpg" />
+
+  </head>
+  <body>
+  <div id="content">
+  <div id="header">
+  <h1> Pizza Rush </h1>
+ 
+ 
+
+<div class="nav">
+	<ul>
+		
+		    <li><a href="home.html">Home</a></li>
+  			<li><a href="aboutus.html">About Us</a></li>
+  			<li><a href="ourwork.html">Our Work</a></li>
+  			<li><a href="testimonials.html">Testimonials</a></li>
+  			<li><a href="#">Contact Us</a></li>
+		</ul>
+</div>
+
+  </div>
+  <hr>
+  <body background="background.jpg">
+
+ 
+ <h2>  For more info, contact us below with your concerns/questions...</h2>
+ 
+ <form> 
+ <h2> Name: </h2>
+ <div class="form_input_space">
+ </div>
+ 
+ <h2> E-mail address: </h2>
+ <div class="form_input_space">
+ </div>
+ 
+<h2> Comment: </h2>
+<div id="comment"> </div>
+ </form> 
+
+</div> 
+
+<div class="map">
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;margin-bottom:5px;'>
+			<div id='gmap_canvas' style='height:440px;width:700px; margin-left:40px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://disclaimergenerator.net">disclaimer generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(53.3498053,-6.260309699999993),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(53.3498053,-6.260309699999993)});infowindow = 
+			new google.maps.InfoWindow({content:'<strong>Title</strong><br>Dublin, Ireland<br>'});
+			google.maps.event.addListener(marker, 'click', 
+			function(){infowindow.open(map,marker);});
+			infowindow.open(map,marker);}
+			google.maps.event.addDomListener(window, 'load', init_map);
+		</script>											
+</div> 
+
+
+
+
+  <div id="footer">
+ <h4>Tadgh Brennan 2016. Made as a college assignment. </h4>
+ </div> 
+</body>
+ </html>
